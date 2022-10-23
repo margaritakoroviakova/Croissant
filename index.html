@@ -4,7 +4,85 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/f834179b81.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
     <title>Document</title>
+    <style>
+      body {
+        background: radial-gradient(
+          circle at 0% 0.5%,
+          rgb(241, 241, 242) 0.1%,
+          rgb(224, 226, 228) 100.2%
+        );
+      }
+
+      h1,
+      h3,
+      p {
+        text-align: center;
+      }
+
+      h1 {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        color: #ff6f3c;
+        text-decoration: underline;
+        margin-top: 10px;
+      }
+
+      h3 {
+        font-size: 23px;
+        margin-top: 10px;
+        color: #ff9a3c;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+
+      p {
+        color: #155263;
+        font-size: 17px;
+        margin-top: 10px;
+      }
+
+      div.container {
+        text-align: center;
+      }
+
+      ul.list {
+        display: inline-block;
+        text-align: left;
+        color: #155263;
+        margin-top: 5px;
+      }
+
+      div.icons {
+        text-align: center;
+      }
+
+      div.links {
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      a {
+        color: #ffc93c;
+        text-decoration: none;
+      }
+    </style>
   </head>
   <body>
     <h1>Croissant🥐</h1>
@@ -13,21 +91,27 @@
       A croissant is bakery product that contains dough/roll-in fat layers to
       create a flaky, crispy texture.
     </p>
+    <div class="container">
+      <ul class="list">
+        Interesting facts
+        <li>
+          The original croissant was called Kipfel and originated in Austria in
+          1683.
+        </li>
+        <li>The Croissant became the French national product in 1920.</li>
+        <li>The Croissant started as a luxury product.</li>
+        <li>National Croissant Day is celebrated on the 30th of January.</li>
+      </ul>
+    </div>
 
-    <ul>
-      Interesting facts
-      <li>
-        The original croissant was called Kipfel and originated in Austria in
-        1683.
-      </li>
-      <li>The Croissant became the French national product in 1920.</li>
-      <li>The Croissant started as a luxury product.</li>
-      <li>National Croissant Day is celebrated on the 30th of January.</li>
-    </ul>
+    <div class="icons">
+      <i class="fa-solid fa-gift"></i>
+      <i class="fa-solid fa-cookie"></i>
+    </div>
 
-    <i class="fa-solid fa-gift"></i>
-    <i class="fa-solid fa-cookie"></i>
-    <a href="/contact.html">Contacts</a>
-    <a href="/photo.html">The photo:)</a>
+    <div class="links">
+      <a href="/contact.html">Contacts</a>
+      <a href="/photo.html">The photo:)</a>
+    </div>
   </body>
 </html>
