@@ -16,14 +16,41 @@
       crossorigin="anonymous"
     ></script>
     <title>Document</title>
+    <style>
+      body {
+        background: radial-gradient(
+          circle at 0% 0.5%,
+          rgb(241, 241, 242) 0.1%,
+          rgb(224, 226, 228) 100.2%
+        );
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+
+      .links {
+        text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 100px;
+      }
+
+      a {
+        color: #155263;
+      }
+    </style>
   </head>
   <body>
     <img
+      width="60%"
       class="img-fluid"
       src="https://www.neplechanaplechu.cz/wp-content/uploads/2021/02/A73ECAAC-EC00-4D18-A8C0-5D66054A9C6F-scaled.jpeg"
       alt="croissant"
     />
-    <a href="/index.html">Homepage</a>
-    <a href="/contact.html">Conatcts</a>
+    <div class="links">
+      <a href="/index.html">Homepage</a>
+      <a href="/contact.html">Conatcts</a>
+    </div>
   </body>
 </html>
